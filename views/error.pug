@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  div.error
+    h1 Error Nº #{error.status}
+    h2= error.statusText
+    a.button.show(href='/') Inicio
